@@ -16,7 +16,7 @@ print(mystr[0:4])  # slice 0-3 not till 4
 print(mystr[0:10:2])  # slice and  print by skiping every 2nd element
 print(mystr[::2])  # take by default 0:len(mystr):2
 print(mystr[-4:-1])  # take element from last element
-print(mystr[-4:-1:-1])  # reverse string then then all thing is remain same
+print(mystr[-4:-1:-1])  # reverse string then all thing is remain same
 print(len(mystr))  # length
 print((mystr.isalpha()))  # check is it has only alphabets without space
 print(mystr.isalnum())  # check is it aphaNumeric

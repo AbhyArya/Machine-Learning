@@ -16,7 +16,7 @@ print(name.a)
 
 
 class Empl:
-     id = 1  #class variable
+     id = 1  # it behave like class variable
      def __init__(self,name,salary,role):  #constructor self is mandatory
          self.name=name #instance variable
          self.salary=salary

@@ -19,7 +19,7 @@ for i in range(5):
 
 
 
-# fillter function
+# filter function
 def greter(num):
     return num>5
 lis = [2, 4,6,1 ,5 , 9]

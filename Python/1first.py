@@ -36,7 +36,7 @@ print(5 is 6)#check reference to while == check values only
 print(5 is not 6)
 l = [1, 2, 3, 4, 5, 6]
 print(5 in l)
-print(5 not in 6)
+print(5 not in l)
 
 
 

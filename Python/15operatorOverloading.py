@@ -4,10 +4,10 @@ class Empl:
         self.name=name
         self.salary=salary
         self.role=role
-
-    def __add__(self,other):  #operator overload
+    def __del__(self): # this is automatically call when object is deleted
+        pass
+    def __add__(self,other):  #overrding __add__ similar to operator overload
         return self.salary + other.salary
-
 
 abhi=Empl("Abhi",1234,"CSE")
 vivek=Empl("Vivek",1234,"12th")

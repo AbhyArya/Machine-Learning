@@ -36,7 +36,7 @@ print(first._School__privte) # to access the private variable of base class
 
 
 
-# dimond shape problem shimilar to amibiguity in multiple inheitance which is solved by virtual class but in python thid is consider as class sequence of inheritance
+# dimond shape problem similar to amibiguity in multiple inheitance which is solved by virtual class but in python this is consider as class sequence of inheritance
 
 # Abstract base class similar to java
 
@@ -55,9 +55,5 @@ class rec(shape):
         self.width=8
     def prints(self):
         return self.width*self.lenght
-
-
-
-
 an=rec()
 print(an.prints())

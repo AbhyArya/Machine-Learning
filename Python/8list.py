@@ -58,12 +58,12 @@ del mylist[1]
 
 
 
-newlist= mylist.copy();
+newlist= mylist.copy()
 print(newlist)
 
 
 
-newlist.clear();
+newlist.clear()
 print(newlist)
 
 
@@ -93,5 +93,5 @@ ls = [i for i in range(100) if i % 3 == 0]
 print(ls)
 ls1 = [i if i % 3 == 0 else i*i for i in range(100) ]
 print(ls1)
-nestedList= [[i for  i in range(1,11)] for j in range(1,6)]
+nestedList = [[i for i in range(1,11)] for j in range(1,6)]
 print(nestedList)
